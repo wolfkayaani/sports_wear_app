@@ -1,0 +1,72 @@
+body{
+    margin-left: 60px;
+    margin-right: 100px;
+    background-image: url(Imges/Day\ 1\ background\ image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.nav_div{
+    display: flex;
+    justify-content:space-between;
+}
+.nav_menu{
+    margin-top: 20px;
+    margin-right: 40px;
+}
+.nav_div h1{
+    color: gold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav_menu a{
+    margin: 10px;
+    text-decoration: none;
+    color:rgb(92, 83, 65);
+}
+.nav_button{
+    margin-top: 15px;
+}
+.nav_button button{
+    color: white;
+    background-color: orangered; 
+    border: none;
+    width: 90px;
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.nav_button input{
+    background-color: rgba(3, 3, 3, 0);
+    color: white;
+    border-radius: 5px;
+    border-color: rgb(255, 77, 0);
+}
+#p{
+    color: rgb(255, 242, 242);
+}
+.section_left_div h2{
+    color: rgb(255, 77, 0);
+}
+#btn{
+    width: 90px;
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(255, 77, 0) ;
+}
+.section_div{
+    display: flex;
+}
+.section_right_div{
+    border-radius: 50%;  
+    color: white;
+    background-color: rgb(0, 0, 0);
+    height: 400px;
+    width: 400px;
+    margin-left: 5rem;
+    text-align: center;
+}
+.section_right_div p{
+   margin-top: 11rem;
+}

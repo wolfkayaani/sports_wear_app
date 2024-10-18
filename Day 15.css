@@ -1,0 +1,94 @@
+body{
+    margin: 70px;
+    background-image: url(Imges/bayer\ 04\ stadium.jpg);
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+.nav_div{
+    display: flex;
+    justify-content: space-between;
+}
+.nav_logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.menu a{
+    margin: 40px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.menu a:hover{
+    color: white;
+    background-color: black;
+    border-radius: 2PX;
+    text-decoration: underline rgb(114, 27, 27) 2px;
+}
+.nav_button button{
+    width: 100px;
+    color: white;
+    background-color: black;
+    border: 3px solid rgb(80, 4, 4) ;
+    border-radius: 5px;
+}
+.section_div{
+    display: flex;
+    margin: 10px;
+}
+section {
+    color: white;
+}
+.section_div img{
+    margin: 20px;
+}
+.section_div_1 img{
+    margin-top: 5rem;
+    height: 50vh;
+    width: 50vh;
+    border-radius: 5px;
+}
+.section_div_2 img{
+    margin-top: 5rem;
+    height: 50vh;
+    width: 50vh;
+    border-radius: 5px;
+}
+.section_div_3 img{
+    margin-top: 5rem;
+    height: 50vh;
+    width: 50vh;
+    border-radius: 5px;
+}
+section button{
+    color: white;
+    background-color: grey;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+}
+#btn{
+    margin-top: 3rem;
+    margin-left: 30rem;
+    color: white;
+    background-color: grey;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+}
+.footer_div button{
+    margin: 2px;
+    margin-top: 40px;
+    color: white;
+    background-color: orangered;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+}

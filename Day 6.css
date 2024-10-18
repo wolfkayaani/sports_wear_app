@@ -1,0 +1,68 @@
+body{
+   
+    margin: 70px;
+    background-image: url(Imges/fish.jpg);
+   background-attachment: fixed;
+}
+.nav_div{
+    display: flex;
+    justify-content: space-between;
+}
+.nav_logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.menu a{
+    margin: 40px;
+    text-decoration: none;
+    color: grey;
+}
+.menu a:hover{
+    color: white;
+    text-decoration: underline rgb(114, 27, 27) 2px;
+}
+.nav_button button{
+    width: 100px;
+    color: white;
+    background-color: black;
+    border: 3px solid rgb(80, 4, 4) ;
+    border-radius: 5px;
+}
+section{
+    color: white;
+}
+.section_div{
+    display: flex;
+    margin: 10px;
+}
+.section_div img{
+    margin: 20px;
+}
+.section_div_1 img{
+    margin-top: 5rem;
+    height: 50vh;
+    width: 50vh;
+    border-radius: 5px;
+}
+.section_div_2 img{
+    margin-top: 5rem;
+    height: 50vh;
+    width: 50vh;
+    border-radius: 5px;
+}
+.section_div_3 img{
+    margin-top: 5rem;
+    height: 50vh;
+    width: 50vh;
+    border-radius: 5px;
+}
+section button{
+    color: white;
+    background-color: grey;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+}
