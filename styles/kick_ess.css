@@ -10,6 +10,8 @@ body{
 .nav_div{
     display: flex;
     justify-content:space-between;
+    align-items: center;
+    text-align: center;
 }
 .nav_menu{
     margin-top: 20px;
