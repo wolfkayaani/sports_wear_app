@@ -123,8 +123,41 @@ p{
     text-align: center;
     background-color: orangered;
 }
-.main-footer-div-1 span{
-    font: 100px;
+.main-footer-div{
+    background-color: orangered;
+    display: inline;
+    align-items: center;
+    text-align: center;
+}
+.main-footer-div h3{
+    margin-top: 10rem;
+    color: white;
+}
+.main-footer-div-1 {
+    font-size: 50px;
+    margin-top: 2rem;
+    padding: 2rem;
+}
+.main-footer-div-1 i{
+    color: white;
+    margin-top: 20px;
+    margin: 5rem;
+}
+.main-footer-div-2 {
+    font-size: 50px;
+    padding: 2rem;
+}
+.main-footer-div-2 i{
+    color: white;
+    margin: 5rem;
+}
+.main-footer-div-3 {
+    font-size: 50px;
+    padding: 2rem;
+}
+.main-footer-div-3 i{
+    color: white;
+    margin: 5rem;
 }
 
 
