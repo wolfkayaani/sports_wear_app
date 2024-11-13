@@ -1,0 +1,68 @@
+/* start styling for mobile first */
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    padding: 32px 16px; 
+}
+.hero-section-div-1{
+    order: 2;
+    text-align: left;
+}
+.hero-section-div-1 h1{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.hero-section-div-1 h2{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.hero-section-div-1 p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.hero-section-div-1 button{
+    padding: 16px 24px;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+    font-size: 16px;
+}
+.hero-section-div-2{
+    order: 1;
+}
+.hero-section-div-2 img{
+    width: 100%;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+
+/* Media Queries for Desktop and Tablet */
+@media (min-width: 992px){
+    .hero-section{
+        padding: 50px 90px;
+        flex-direction: row;
+        gap: 32px;
+        align-items: center;
+    }
+    .hero-section-div-1{
+        order: 1;
+    }
+    .hero-section-div-1 h1{
+        font-size: 50px;
+    }
+    .hero-section-div-1 h2{
+        font-size: 30px;
+    }
+    .hero-section-div-2{
+        order: 2;
+    }
+    .hero-section-div-2 img{
+        
+    }
+}
