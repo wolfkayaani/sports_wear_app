@@ -16,9 +16,6 @@
 
 /* Media Queries */
 @media (min-width: 992px){
-    .nav-items{
-        
-    }
     .nav-items ul{
          display: flex; 
          gap: 32px;
