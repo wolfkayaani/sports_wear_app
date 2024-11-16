@@ -1,0 +1,64 @@
+/* start styling for mobile first */
+/* about section */
+.about-message-container{
+    padding: 32px 16px;
+    /* margin-left: 50px; */
+    /* text-align: left; */
+}
+.about-message-container h1{
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 32px 78px;
+}
+.about-message-container h4{
+    padding: 32px 75px;
+}
+.discription{
+    padding: 32px 88px;
+    margin-top: 32px;
+}
+.about-message-container h4{
+    font-size: 16px;
+    font-weight: 600;
+}
+.about-container{
+    display: flex;
+    flex-direction: column;
+    /* margin: 10px; */
+    padding: 32px 16px;
+}
+.about-container-1 img{
+    margin-top: 5rem;
+    height: 50vh;
+    width: 50vh;
+    border-radius: 5px;
+}
+.about-container-2 img{
+    margin-top: 5rem;
+    height: 50vh;
+    width: 50vh;
+    border-radius: 5px;
+}
+.about-container-3 img{
+    margin-top: 5rem;
+    height: 50vh;
+    width: 50vh;
+    border-radius: 5px;
+}
+
+
+
+
+/* Media Queries for Desktop and Tablet */
+@media (min-width: 992px){
+    .about-container{
+        padding: 50px 90px;
+        flex-direction: row;
+        gap: 32px;
+        align-items: center;
+    }
+    .about-message-container{
+    padding: 32px 16px;
+}
+}
